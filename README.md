@@ -17,3 +17,15 @@
 
 #### Notiz
 Heute habe ich ein nochmals meine c#-API kentnisse aufgefrischt, da wir momentan an dieser LB arbeiten. Ein Problem hatte ich, dieses konnte aber durch das Installieren eines fehlenden NuGet-Pakets behoben werden. Der Connection string für meine Datenbank konnte ich von einem alten Projekt ableiten, benötigte aber dennoch einige Anläufe. Einfach zum testen werde ich eine In-Memory db verwenden.
+
+# Lern-Periode-9
+## 28/02/2025
+### Arbeitspakete
+- [ ] 
+
+#### Gelerntes
+(Heute eher repetiertes)
+- 
+
+#### Notiz
+
