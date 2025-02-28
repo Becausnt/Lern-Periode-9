@@ -21,11 +21,28 @@ Heute habe ich ein nochmals meine c#-API kentnisse aufgefrischt, da wir momentan
 # Lern-Periode-9
 ## 28/02/2025
 ### Arbeitspakete
-- [ ] 
+- [x] Lernen Grundlagen FastAPI
+- [x] Erstellen der goals-API (Grundlegend CRUD)
+- [x] Erstellen der Users-API (Grundlegend CRUD)
+- [x] API dockerizen
 
 #### Gelerntes
-(Heute eher repetiertes)
-- 
+- API erstellen mit FastAPI
+- classes in python
+- FastAPI `Response()`-Objekt
+- FastAPI CRUD-Operationen
+- Hosten FastAPI mit uvicorn
+- uvicorn live-reload for developement. (Auch in docker mittels volume)
 
 #### Notiz
-
+Ich habe nun ein neues, richtiges Projekt begonnen. Das Ziel ist eine Goal-Tracking webapp. Die Implementation soll mit Python (FastAPI, Jinja2) und Docker erfolgen.
+Anforderungen/Ziele:
+- CRUD für Goals und Ziele
+- CRUD für Benutzer
+- Speichern der Daten auf einer Datenbank
+- Zugriff via Website/Webinterface
+- Belohnungssystem via Exp-points und levels basierend auf Zeit und erreichten Zielen (Gamification)
+- Tracking von:
+  - Investierter Zeit
+  - Fortschritt
+  - (Zeit/Kalender?)
