@@ -45,3 +45,24 @@ Anforderungen/Ziele:
   - Investierter Zeit
   - Fortschritt
   - (Zeit/Kalender?)
+
+## 28/02/2025
+### Arbeitspakete
+- [x] Kennenlern-/Bewerbungsgespräch bei LWAI von 7:45 - 8:15
+- [x] LB295 - Teilauftrag 2 - Datensatz statistisch auswerten
+  - [x] Datensatz in Kategorien aufspalten um bei der Auswertung möglich Unterschiede zu sehen
+- [x] LB295 - Teilauftrag 2 - Statistische auswertung grafisch darstellen
+      
+#### Gelerntes
+- pandas grundlagen
+- pandas statistische auswertungen
+- pandas DataFrames bearbeiten
+- pandas DataFrames aufspalten/filtern
+- pandas DataFrames
+- matplotlib Historigramm
+- Wordcloud erstellen
+- nltk - Natural language toolkit grundlagen
+- Basics natural language processing
+  
+#### Notiz
+Ich denke ich habe heute trotz der Zeit die ich in das Gespräch mit LWAI investiert habe eine gute Menge arbeit geleistet. KI ist sehr interessant (und je nach implementation auch sehr amüsant) und dieses Modul macht mir Spass. Auf Probleme, die ich nicht ohne Google oder ChatGPT lösen konnte bin ich heute nicht gestossen.
