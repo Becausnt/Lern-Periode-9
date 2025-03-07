@@ -46,7 +46,7 @@ Anforderungen/Ziele:
   - Fortschritt
   - (Zeit/Kalender?)
 
-## 28/02/2025
+## 07/03/2025
 ### Arbeitspakete
 - [x] Kennenlern-/Bewerbungsgespräch bei LWAI von 7:45 - 8:15
 - [x] LB295 - Teilauftrag 2 - Datensatz statistisch auswerten
