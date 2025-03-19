@@ -66,3 +66,13 @@ Anforderungen/Ziele:
   
 #### Notiz
 Ich denke ich habe heute trotz der Zeit die ich in das Gespräch mit LWAI investiert habe eine gute Menge arbeit geleistet. KI ist sehr interessant (und je nach implementation auch sehr amüsant) und dieses Modul macht mir Spass. Auf Probleme, die ich nicht ohne Google oder ChatGPT lösen konnte bin ich heute nicht gestossen.
+
+## 14/03/2025
+### Arbeitspakete
+- [x] 
+      
+#### Gelerntes
+- 
+  
+#### Notiz
+
