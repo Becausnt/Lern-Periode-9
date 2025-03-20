@@ -69,10 +69,17 @@ Ich denke ich habe heute trotz der Zeit die ich in das Gespräch mit LWAI invest
 
 ## 14/03/2025
 ### Arbeitspakete
-- [x] 
+- [x] Udemy Course Angular: Setting up and versions
+- [x] Udemy Course Angular: Theory (Components, typescript, styling, two-way binding, etc)
+- [x] Udemy Course Angular: Creating first webapp
       
 #### Gelerntes
-- 
+- Angular basics (was ist angular, usw.)
+- Components
+- Typescript (basics)
+- scss styling (basics)
+- one/two-way data binding
+- button click event
   
 #### Notiz
-
+Ich plane Angular als frontend für die `your_goals` app zu verwenden, da ich hiermit nur minimal CSS schreiben muss und es auch in Produktiven umgebungen viel verwendet wird. Probleme hatte ich bisher nur mit Udemy, das sich geweigert hat die Videos zu laden.
