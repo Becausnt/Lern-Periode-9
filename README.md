@@ -83,3 +83,18 @@ Ich denke ich habe heute trotz der Zeit die ich in das Gespräch mit LWAI invest
   
 #### Notiz
 Ich plane Angular als frontend für die `your_goals` app zu verwenden, da ich hiermit nur minimal CSS schreiben muss und es auch in Produktiven umgebungen viel verwendet wird. Probleme hatte ich bisher nur mit Udemy, das sich geweigert hat die Videos zu laden.
+
+## 14/03/2025
+### Arbeitspakete
+- [x] LB259 - Daten skalieren
+- [x] LB259 - text token und vektorisieren
+- [x] LB259 - Model erstellen und trainieren
+- [x] LB295 - Model auswerten und mit eigenen Statements testen
+      
+#### Gelerntes
+- CountVectorizer
+- tokenisierung text (spaCy, "en_core_web_sm", `token.lemma_`)
+- LinearSVC
+  
+#### Notiz
+Nun bleibt noch Teilauftrag 4 und ein wenig Dokumentation und dann wäre ich auch schon fertig mit der LB. Auf Probleme bin ich bisher nicht wirklich gestossen (ausser das `DataFrame[].progress_apply()` auf meinem PC zuhause nicht funktionieren will, aber auf diesem Laptop geht alles ohne Probleme). 
