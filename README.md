@@ -84,7 +84,7 @@ Ich denke ich habe heute trotz der Zeit die ich in das Gespräch mit LWAI invest
 #### Notiz
 Ich plane Angular als frontend für die `your_goals` app zu verwenden, da ich hiermit nur minimal CSS schreiben muss und es auch in Produktiven umgebungen viel verwendet wird. Probleme hatte ich bisher nur mit Udemy, das sich geweigert hat die Videos zu laden.
 
-## 14/03/2025
+## 21/03/2025
 ### Arbeitspakete
 - [x] LB259 - Daten skalieren
 - [x] LB259 - text token und vektorisieren
