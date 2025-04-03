@@ -98,3 +98,27 @@ Ich plane Angular als frontend für die `your_goals` app zu verwenden, da ich hi
   
 #### Notiz
 Nun bleibt noch Teilauftrag 4 und ein wenig Dokumentation und dann wäre ich auch schon fertig mit der LB. Auf Probleme bin ich bisher nicht wirklich gestossen (ausser das `DataFrame[].progress_apply()` auf meinem PC zuhause nicht funktionieren will, aber auf diesem Laptop geht alles ohne Probleme). 
+
+## 28/03/2025
+### Arbeitspakete
+- [x] LB295 - Möglichkeiten zur Sprachverarbeitung erkunden
+- [x] LB295 - Möglichkeiten zur optimierung des Models
+- [x] LB295 - Experimentierung mit Feldern des Datensatzes
+      
+#### Gelerntes
+- Verschiedene Vectorizers
+  - (CountVectorizer)
+  - TfidfVectorizer
+  - HashVectorizer
+- Verschiedene optionen zum Preprocessing
+  - ngrams
+  - token patterns
+  - max/min_df
+- Mögliche optimierung
+  - TruncatedSVD (Funktioniert vielleicht, vielleicht nicht)
+  - Classifiers (e.g. MultinominalNB)
+  - Pipelines (Verschiedene "filter"/zusätzliche Schritte schon im Trainingsprozess hinzufügen)
+  - GridSearchCV (Zum finden der besten Parameter)
+  
+#### Notiz
+Hier habe ich sehr viel Theorie gelernt, bin aber noch nicht dazu gekommen diese richtig einzusetzen. Der Plan wäre nun, diese Theorie morgen noch so gut wie möglich umzusetzen und die dann vermutlich auftretenden/klarwerdenden Probleme zu bekämpfen.
