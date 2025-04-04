@@ -116,9 +116,51 @@ Nun bleibt noch Teilauftrag 4 und ein wenig Dokumentation und dann wäre ich auc
   - max/min_df
 - Mögliche optimierung
   - TruncatedSVD (Funktioniert vielleicht, vielleicht nicht)
-  - Classifiers (e.g. MultinominalNB)
+  - Classifiers (e.g. MultinomialNB)
   - Pipelines (Verschiedene "filter"/zusätzliche Schritte schon im Trainingsprozess hinzufügen)
   - GridSearchCV (Zum finden der besten Parameter)
   
 #### Notiz
 Hier habe ich sehr viel Theorie gelernt, bin aber noch nicht dazu gekommen diese richtig einzusetzen. Der Plan wäre nun, diese Theorie morgen noch so gut wie möglich umzusetzen und die dann vermutlich auftretenden/klarwerdenden Probleme zu bekämpfen.
+
+## 04/04/2025
+#### Arbeitspakete
+- [x] LB295 - Implementation verschiedene Vectorizers
+- [x] LB295 - Implementation TruncatedSVD und MultinomialNB
+- [x] LB295 - Erstellen einer Pipeline
+- [x] LB295 - Implementation GridSearchCV
+
+#### Gelerntes
+(Anwendung von allem das ich letztes Mal gelernt habe)
+- TruncatedSVD macht bei meinem Datenset keinen allzu grossen unterschied
+  - (Spielt vielleicht eine Rolle bei Overfitting, habe aber nichts bemerkt.)
+- Anwendung verschiedener Classifiers
+- Anwendung Count-, Tfidf- und HashVetorizer
+- Erstellen von Pipelines mit `make_pipeline()` und `Pipeline([...])`
+
+#### Notiz
+Ich konnte alles Umsetzen, werde aber noch einiges bereinigen müssen. Mein aktueller Plan ist es, die LB jetzt mal abzuschliessen (Muss das Model noch auswerten) und dann einfach einen Schritt 5 Optimization hinzuzufügen. In diesem kann ich weiter mit dem Model herumexperimentieren und es bleibt alles ein wenig übersichtlicher. Mein Model habe ich nun schon um einiges Verbessert (siehe Auswertungen unten). Ich hatte einige Probleme mit den Modellen merkte dann aber, dass ich das tokenized dataset verwendete anstatt dem originalen Text was zu einigen Kompabilitätsproblemen geführt hat. Dies war jedoch leicht behoben.
+
+GridSearchCV hat mich zu den folgenden Parametern gebracht: 
+```json
+{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'vectorizer__alternate_sign': False, 'vectorizer__ngram_range': (1, 2), 'vectorizer__norm': None}
+```
+
+Altes Model:
+|              | Precision | Recall | F1-Score | Support |
+|--------------|-----------|--------|----------|---------|
+| **0**  | 0.81      | 0.77   | 0.79     | 3928    |
+| **1**  | 0.73      | 0.78   | 0.75     | 3227    |
+| **Accuracy** |           |        | 0.77     | 7155    |
+| **Macro Avg**| 0.77      | 0.77   | 0.77     | 7155    |
+| **Weighted Avg** | 0.77  | 0.77   | 0.77     | 7155    |
+
+Nach GridSearchCV und einigem herumexperimentieren:
+|              | Precision | Recall | F1-Score | Support |
+|--------------|-----------|--------|----------|---------|
+| **0**  | 0.86      | 0.85   | 0.85     | 3747    |
+| **1**  | 0.84      | 0.84   | 0.84     | 3408    |
+| **Accuracy** |           |        | 0.85     | 7155    |
+| **Macro Avg**| 0.85      | 0.85   | 0.85     | 7155    |
+| **Weighted Avg** | 0.85  | 0.85   | 0.85     | 7155    |
+
